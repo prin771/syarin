@@ -14,11 +14,12 @@
 			"version": "0.2.0",
 			"configurations": [
 				{
-					"name": "run go",
+					"name": "ipinfo",
 					"type": "go",
 					"request": "launch",
 					"mode": "auto",
-					"program": "${workspaceFolder:go}"
+					"program": "${workspaceFolder:go}/cmd/ipinfo",
+					"args": ["-f", "test/test.txt"]
 				},
 				{
 					"name": "run go file",
